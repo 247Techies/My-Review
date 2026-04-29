@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>24/7 Techies — Customer Reviews</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: { syne: ['Syne','sans-serif'], dm: ['DM Sans','sans-serif'] },
+        colors: { ink:'#0D0F14', card:'#13161E', edge:'#1E2230', gold:'#F5C842', glow:'#FFE066', muted:'#6B7394', soft:'#A8AECB' }
+      }
+    }
+  }
+</script>
+
+<style>
+  :root { --gold:#F5C842; --glow:#FFE066; --ink:#0D0F14; --card:#13161E; --edge:#1E2230; }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:var(--ink);font-family:'DM Sans',sans-serif;color:#fff;overflow-x:hidden;}
+  #stars{position:fixed;inset:0;z-index:0;pointer-events:none;}
+  body::before{content:'';position:fixed;inset:0;z-index:1;pointer-events:none;
+    background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    opacity:.35;}
+  .wrapper{position:relative;z-index:2;}
+
+  /* Badge */
+  .badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(245,200,66,.1);border:1px solid rgba(245,200,66,.35);border-radius:999px;padding:.35rem 1rem;font-size:.75rem;font-family:'Syne',sans-serif;letter-spacing:.12em;color:var(--gold);text-transform:uppercase;}
+
+  /* Ticker */
+  .ticker-wrap{overflow:hidden;border-top:1px solid var(--edge);border-bottom:1px solid var(--edge);background:rgba(245,200,66,.04);}
+  .ticker-inner{display:flex;white-space:nowrap;animation:ticker 40s linear infinite;}
+  .ticker-inner span{padding:0 2.5rem;font-family:'Syne',sans-serif;font-size:.78rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);opacity:.7;}
+  @keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+  /* Cards */
+  .review-card{background:var(--card);border:1px solid var(--edge);border-radius:1.25rem;padding:1.75rem;position:relative;overflow:hidden;transition:border-color .3s,transform .3s,box-shadow .3s;}
+  .review-card::before{content:'';position:absolute;inset:0;border-radius:inherit;background:radial-gradient(circle at 30% 30%,rgba(245,200,66,.06) 0%,transparent 70%);pointer-events:none;opacity:0;transition:opacity .4s;}
+  .review-card:hover{border-color:rgba(245,200,66,.5);transform:translateY(-3px);box-shadow:0 16px 40px rgba(0,0,0,.4);}
+  .review-card:hover::before{opacity:1;}
+  .quote-mark{font-family:'Syne',sans-serif;font-size:4.5rem;line-height:1;color:var(--gold);opacity:.14;position:absolute;top:.5rem;right:1.2rem;user-select:none;}
+  .star-row{display:flex;gap:.2rem;align-items:center;}
+  .star.filled{color:var(--gold);}
+  .star.empty{color:var(--edge);}
+  .avatar{width:2.6rem;height:2.6rem;border-radius:50%;background:linear-gradient(135deg,var(--gold),#e0a500);display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif;font-weight:700;font-size:1rem;color:var(--ink);flex-shrink:0;}
+  .pet-chip{display:inline-flex;align-items:center;gap:.3rem;background:rgba(255,255,255,.05);border:1px solid var(--edge);border-radius:999px;padding:.18rem .65rem;font-size:.7rem;color:#7a82a8;}
+
+  /* Progress bar */
+  .progress-bar{height:3px;background:var(--edge);border-radius:3px;overflow:hidden;}
+  .progress-fill{height:100%;background:linear-gradient(90deg,var(--gold),var(--glow));border-radius:3px;transform-origin:left;transform:scaleX(0);transition:transform .1s linear;}
+
+  /* Nav dots */
+  .nav-dot{width:8px;height:8px;border-radius:50%;background:var(--edge);cursor:pointer;transition:background .3s,transform .3s;border:none;outline:none;}
+  .nav-dot.active{background:var(--gold);transform:scale(1.4);}
+
+  /* Ctrl buttons */
+  .ctrl-btn{width:2.6rem;height:2.6rem;border-radius:50%;border:1px solid var(--edge);background:var(--card);color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:border-color .2s,background .2s;}
+  .ctrl-btn:hover{border-color:var(--gold);background:rgba(245,200,66,.08);}
+
+  /* Section label */
+  .section-label{font-family:'Syne',sans-serif;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);}
+
+  /* Stats counter */
+  .review-counter{font-family:'Syne',sans-serif;font-size:4.5rem;font-weight:800;color:transparent;-webkit-text-stroke:1px rgba(245,200,66,.25);line-height:1;}
+
+  /* Search / filter bar */
+  .search-input{background:var(--card);border:1px solid var(--edge);border-radius:.75rem;padding:.75rem 1.1rem .75rem 2.8rem;color:#fff;font-family:'DM Sans',sans-serif;font-size:.95rem;width:100%;outline:none;transition:border-color .2s;}
+  .search-input::placeholder{color:#4a5170;}
+  .search-input:focus{border-color:rgba(245,200,66,.5);}
+  .filter-btn{background:var(--card);border:1px solid var(--edge);border-radius:.75rem;padding:.7rem 1.2rem;color:#7a82a8;font-family:'Syne',sans-serif;font-size:.78rem;letter-spacing:.08em;cursor:pointer;transition:all .2s;white-space:nowrap;}
+  .filter-btn:hover,.filter-btn.active{border-color:var(--gold);color:var(--gold);background:rgba(245,200,66,.07);}
+
+  /* Pagination */
+  .page-btn{width:2.4rem;height:2.4rem;border-radius:.6rem;border:1px solid var(--edge);background:var(--card);color:#7a82a8;font-family:'Syne',sans-serif;font-size:.85rem;font-weight:600;cursor:pointer;transition:all .2s;display:flex;align-items:center;justify-content:center;}
+  .page-btn:hover{border-color:var(--gold);color:var(--gold);}
+  .page-btn.active{border-color:var(--gold);background:rgba(245,200,66,.12);color:var(--gold);}
+  .page-btn:disabled{opacity:.3;cursor:not-allowed;}
+  .page-ellipsis{color:#4a5170;font-family:'Syne',sans-serif;padding:0 .3rem;display:flex;align-items:center;}
+
+  /* Cards grid */
+  .cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.4rem;}
+  @media(max-width:640px){.cards-grid{grid-template-columns:1fr;}}
+
+  /* Result count chip */
+  .result-chip{display:inline-flex;align-items:center;background:rgba(245,200,66,.08);border:1px solid rgba(245,200,66,.2);border-radius:999px;padding:.28rem .9rem;font-size:.75rem;font-family:'Syne',sans-serif;letter-spacing:.1em;color:var(--gold);}
+
+  /* Bounce */
+  @keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(6px)}}
+  .bounce{animation:bounce 1.8s ease-in-out infinite;}
+
+  /* Fade util */
+  .fade-up{opacity:0;transform:translateY(24px);}
+
+  /* Empty state */
+  .empty-state{grid-column:1/-1;text-align:center;padding:5rem 2rem;color:#4a5170;}
+  .empty-state svg{margin:0 auto 1.5rem;display:block;opacity:.3;}
+
+  /* Card enter animation */
+  @keyframes cardIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+  .card-enter{animation:cardIn .4s ease forwards;}
+</style>
+</head>
+<body>
+<canvas id="stars"></canvas>
+<div class="wrapper">
+
+  <!-- TICKER -->
+  <div class="ticker-wrap py-3">
+    <div class="ticker-inner" id="tickerInner"></div>
+  </div>
+
+  <!-- HERO -->
+  <section class="relative min-h-screen flex flex-col justify-center items-center text-center px-6 py-24">
+    <div class="absolute" style="width:600px;height:600px;border-radius:50%;border:1px solid rgba(245,200,66,.05);top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none;"></div>
+    <div class="absolute" style="width:380px;height:380px;border-radius:50%;border:1px solid rgba(245,200,66,.1);top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none;"></div>
+
+    <div class="fade-up" id="hero-badge"><div class="badge">⭐ Verified Reviews</div></div>
+    <h1 class="font-syne font-extrabold mt-6 fade-up" id="hero-h1"
+        style="font-size:clamp(2.8rem,8vw,6.5rem);line-height:1.05;letter-spacing:-.02em;">
+      What Our<br><span style="color:var(--gold)">Clients Say</span>
+    </h1>
+    <p class="mt-5 max-w-lg text-soft font-dm fade-up" id="hero-sub" style="font-size:1.05rem;line-height:1.75;">
+      Real words from real people. Every single review, unfiltered and unedited.
+    </p>
+
+    <div class="mt-12 flex items-center gap-8 fade-up" id="hero-score">
+      <div><div class="review-counter" id="avg-score">—</div><div class="section-label mt-1">Avg. Rating</div></div>
+      <div style="width:1px;height:60px;background:var(--edge);"></div>
+      <div><div class="review-counter" id="total-count">—</div><div class="section-label mt-1">Reviews</div></div>
+      <div style="width:1px;height:60px;background:var(--edge);"></div>
+      <div><div class="review-counter" id="perfect-count">—</div><div class="section-label mt-1">Perfect 10s</div></div>
+    </div>
+
+    <div class="mt-14 bounce fade-up" id="hero-scroll">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(245,200,66,.5)" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </div>
+  </section>
+
+  <!-- FEATURED CAROUSEL -->
+  <section class="px-6 py-16 max-w-5xl mx-auto">
+    <div class="flex items-center justify-between mb-10">
+      <div><div class="section-label mb-2">Spotlight</div><h2 class="font-syne font-bold text-3xl">Featured Review</h2></div>
+      <div class="flex items-center gap-3">
+        <button class="ctrl-btn" id="prevBtn">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button class="ctrl-btn" id="pauseBtn">
+          <svg id="pauseIcon" width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+        </button>
+        <button class="ctrl-btn" id="nextBtn">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="progress-bar mb-7"><div class="progress-fill" id="progressFill"></div></div>
+    <div id="featuredCard" class="review-card" style="min-height:220px;"></div>
+    <div class="flex justify-center gap-3 mt-7" id="navDots"></div>
+  </section>
+
+  <!-- ALL REVIEWS — PAGINATED -->
+  <section class="px-6 py-16 max-w-6xl mx-auto">
+
+    <!-- Header row -->
+    <div class="flex flex-wrap items-end justify-between gap-4 mb-8">
+      <div>
+        <div class="section-label mb-2">All Voices</div>
+        <h2 class="font-syne font-bold text-3xl">Every Review</h2>
+      </div>
+      <div id="resultChip" class="result-chip"></div>
+    </div>
+
+    <!-- Search & Filters -->
+    <div class="flex flex-wrap gap-3 mb-6">
+      <!-- Search -->
+      <div class="relative flex-1" style="min-width:220px;">
+        <svg style="position:absolute;left:.9rem;top:50%;transform:translateY(-50%);pointer-events:none;" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4a5170" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input id="searchBox" class="search-input" placeholder="Search by name or review text…" type="text" />
+      </div>
+      <!-- Rating filters -->
+      <div class="flex gap-2 flex-wrap">
+        <button class="filter-btn active" data-filter="all">All Ratings</button>
+        <button class="filter-btn" data-filter="10">Perfect 10 ⭐</button>
+        <button class="filter-btn" data-filter="9">9+</button>
+        <button class="filter-btn" data-filter="8">8+</button>
+      </div>
+      <!-- Sort -->
+      <select id="sortSelect" class="filter-btn" style="appearance:none;padding-right:2rem;">
+        <option value="newest">Newest First</option>
+        <option value="oldest">Oldest First</option>
+        <option value="highest">Highest Rated</option>
+        <option value="lowest">Lowest Rated</option>
+      </select>
+    </div>
+
+    <!-- Grid -->
+    <div class="cards-grid" id="cardsGrid"></div>
+
+    <!-- Pagination -->
+    <div class="flex items-center justify-between mt-10 flex-wrap gap-4" id="paginationBar">
+      <div id="pageInfo" style="font-size:.85rem;color:#6B7394;font-family:'DM Sans',sans-serif;"></div>
+      <div class="flex items-center gap-2" id="pageButtons"></div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t px-6 py-10 text-center" style="border-color:var(--edge);">
+    <div class="font-syne font-bold text-xl mb-1" style="color:var(--gold);">24/7 Techies</div>
+    <p style="color:#6B7394;font-size:.875rem;">Always on. Always there.</p>
+  </footer>
+</div>
+
+<script>
+/* ════════════════════════════════════════════
+   CONFIG
+   ════════════════════════════════════════════ */
+const REVIEWS_JSON_PATH = 'reviews.json';
+const AUTOPLAY_MS       = 5000;
+const PER_PAGE          = 9;   // cards per page — change as you like
+
+/* ════════════════════════════════════════════
+   STATE
+   ════════════════════════════════════════════ */
+let allReviews    = [];
+let filtered      = [];
+let currentPage   = 1;
+let featuredIdx   = 0;
+let paused        = false;
+let raf           = null;
+let progressStart = null;
+let progressElap  = 0;
+let searchTerm    = '';
+let ratingFilter  = 'all';
+let sortMode      = 'newest';
+
+/* ════════════════════════════════════════════
+   STARFIELD
+   ════════════════════════════════════════════ */
+(function(){
+  const c=document.getElementById('stars'),ctx=c.getContext('2d');let W,H,stars;
+  function resize(){W=c.width=window.innerWidth;H=c.height=window.innerHeight;
+    stars=Array.from({length:130},()=>({x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.2+.2,a:Math.random(),s:.0003+Math.random()*.0005}));}
+  function draw(){ctx.clearRect(0,0,W,H);stars.forEach(s=>{s.a+=s.s;if(s.a>1)s.a=0;ctx.beginPath();ctx.arc(s.x,s.y,s.r,0,Math.PI*2);ctx.fillStyle=`rgba(245,200,66,${s.a*.55})`;ctx.fill();});requestAnimationFrame(draw);}
+  window.addEventListener('resize',resize);resize();draw();
+})();
+
+/* ════════════════════════════════════════════
+   HELPERS
+   ════════════════════════════════════════════ */
+const initials = n => n.trim().split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
+
+function starsHTML(rating){
+  const filled=Math.round(rating/2), empty=5-filled;
+  return `<div class="star-row">
+    ${'<span class="star filled" style="font-size:.95rem">★</span>'.repeat(filled)}
+    ${'<span class="star empty"  style="font-size:.95rem">★</span>'.repeat(empty)}
+    <span style="font-size:.78rem;color:var(--gold);margin-left:.45rem;font-family:'Syne',sans-serif;font-weight:700;">${rating}/10</span>
+  </div>`;
+}
+
+function cardHTML(r, featured=false){
+  return `
+    <div class="quote-mark">"</div>
+    <div class="flex items-start gap-3 mb-4">
+      <div class="avatar">${initials(r.name)}</div>
+      <div>
+        <div style="font-family:'Syne',sans-serif;font-weight:600;font-size:.95rem;line-height:1.3;">${r.name}</div>
+        <div class="flex items-center gap-2 mt-1 flex-wrap">
+          <span class="pet-chip">🐾 ${r.pet}</span>
+          <span style="font-size:.7rem;color:#4a5170;font-family:'DM Sans',sans-serif;">${r.date}</span>
+        </div>
+      </div>
+    </div>
+    <div class="mb-3">${starsHTML(r.rating)}</div>
+    <p style="font-size:${featured?'1.02rem':'.9rem'};line-height:1.75;color:#c0c8e8;font-family:'DM Sans',sans-serif;font-style:italic;">
+      "${r.review}"
+    </p>`;
+}
+
+/* ════════════════════════════════════════════
+   TICKER
+   ════════════════════════════════════════════ */
+function buildTicker(){
+  const items = allReviews.map(r=>`<span>⭐ ${r.name} — "${r.review.slice(0,55)}…"</span>`).join('');
+  document.getElementById('tickerInner').innerHTML = items + items;
+}
+
+/* ════════════════════════════════════════════
+   FEATURED CAROUSEL
+   ════════════════════════════════════════════ */
+// Use top-rated reviews (rating=10) for the spotlight, fallback to all
+let spotlightReviews = [];
+
+function buildDots(){
+  const c = document.getElementById('navDots');
+  c.innerHTML = '';
+  // Only show up to 8 dots even if more spotlight reviews
+  const shown = Math.min(spotlightReviews.length, 8);
+  for(let i=0;i<shown;i++){
+    const b=document.createElement('button');
+    b.className='nav-dot'+(i===0?' active':'');
+    b.addEventListener('click',()=>{ showFeatured(i); resetProgress(); });
+    c.appendChild(b);
+  }
+}
+
+function showFeatured(idx, animate=true){
+  const card=document.getElementById('featuredCard');
+  const dots=document.querySelectorAll('.nav-dot');
+  const shown=Math.min(spotlightReviews.length,8);
+  dots.forEach((d,i)=>d.classList.toggle('active',i===idx%shown));
+  const r=spotlightReviews[idx];
+  if(animate){
+    gsap.to(card,{opacity:0,y:8,duration:.18,onComplete:()=>{
+      card.innerHTML=cardHTML(r,true);
+      gsap.fromTo(card,{opacity:0,y:8},{opacity:1,y:0,duration:.32});
+    }});
+  } else { card.innerHTML=cardHTML(r,true); gsap.set(card,{opacity:1,y:0}); }
+  featuredIdx=idx;
+}
+
+function startProgress(){
+  if(raf)cancelAnimationFrame(raf);
+  progressStart=performance.now()-progressElap;
+  const fill=document.getElementById('progressFill');
+  function tick(now){
+    if(paused)return;
+    const el=now-progressStart, pct=Math.min(el/AUTOPLAY_MS,1);
+    fill.style.transform=`scaleX(${pct})`;
+    progressElap=el;
+    if(pct>=1){ progressElap=0; showFeatured((featuredIdx+1)%Math.min(spotlightReviews.length,8)); progressStart=performance.now(); }
+    raf=requestAnimationFrame(tick);
+  }
+  raf=requestAnimationFrame(tick);
+}
+
+function resetProgress(){
+  progressElap=0;
+  document.getElementById('progressFill').style.transform='scaleX(0)';
+  if(!paused)startProgress();
+}
+
+document.getElementById('prevBtn').addEventListener('click',()=>{ showFeatured((featuredIdx-1+Math.min(spotlightReviews.length,8))%Math.min(spotlightReviews.length,8)); resetProgress(); });
+document.getElementById('nextBtn').addEventListener('click',()=>{ showFeatured((featuredIdx+1)%Math.min(spotlightReviews.length,8)); resetProgress(); });
+document.getElementById('pauseBtn').addEventListener('click',()=>{
+  paused=!paused;
+  const icon=document.getElementById('pauseIcon');
+  if(paused){ if(raf)cancelAnimationFrame(raf); icon.innerHTML=`<polygon points="5,3 19,12 5,21" fill="currentColor"/>`; }
+  else { icon.innerHTML=`<rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>`; startProgress(); }
+});
+
+/* ════════════════════════════════════════════
+   FILTER + SORT
+   ════════════════════════════════════════════ */
+function applyFilterSort(){
+  let res = [...allReviews];
+
+  // Search
+  if(searchTerm){
+    const q=searchTerm.toLowerCase();
+    res=res.filter(r=>r.name.toLowerCase().includes(q)||r.review.toLowerCase().includes(q)||r.pet.toLowerCase().includes(q));
+  }
+
+  // Rating filter
+  if(ratingFilter!=='all'){
+    const min=parseInt(ratingFilter);
+    res=res.filter(r=>r.rating>=min);
+  }
+
+  // Sort
+  if(sortMode==='newest')     res.sort((a,b)=>b.id-a.id);
+  else if(sortMode==='oldest')res.sort((a,b)=>a.id-b.id);
+  else if(sortMode==='highest')res.sort((a,b)=>b.rating-a.rating);
+  else if(sortMode==='lowest') res.sort((a,b)=>a.rating-b.rating);
+
+  filtered=res;
+  currentPage=1;
+  renderGrid();
+  renderPagination();
+}
+
+/* ════════════════════════════════════════════
+   GRID RENDER (paginated)
+   ════════════════════════════════════════════ */
+function renderGrid(){
+  const grid=document.getElementById('cardsGrid');
+  const start=(currentPage-1)*PER_PAGE, end=start+PER_PAGE;
+  const page=filtered.slice(start,end);
+
+  // Result chip
+  document.getElementById('resultChip').textContent=
+    `${filtered.length} review${filtered.length!==1?'s':''}`;
+
+  if(page.length===0){
+    grid.innerHTML=`<div class="empty-state">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <p style="font-family:'Syne',sans-serif;font-size:1.1rem;font-weight:600;margin-bottom:.5rem;">No reviews found</p>
+      <p style="font-size:.9rem;">Try a different search or filter.</p>
+    </div>`;
+    return;
+  }
+
+  grid.innerHTML='';
+  page.forEach((r,i)=>{
+    const div=document.createElement('div');
+    div.className='review-card card-enter';
+    div.style.animationDelay=`${i*45}ms`;
+    div.innerHTML=cardHTML(r);
+    grid.appendChild(div);
+  });
+
+  // Scroll grid into view softly when changing pages (not on first load)
+  if(currentPage>1){
+    document.getElementById('cardsGrid').scrollIntoView({behavior:'smooth',block:'start'});
+  }
+}
+
+/* ════════════════════════════════════════════
+   PAGINATION RENDER
+   ════════════════════════════════════════════ */
+function renderPagination(){
+  const total=Math.ceil(filtered.length/PER_PAGE);
+  const bar=document.getElementById('pageButtons');
+  const info=document.getElementById('pageInfo');
+  const start=(currentPage-1)*PER_PAGE+1;
+  const end=Math.min(currentPage*PER_PAGE, filtered.length);
+  info.textContent=filtered.length>0?`Showing ${start}–${end} of ${filtered.length}`:'';
+
+  bar.innerHTML='';
+  if(total<=1)return;
+
+  function addBtn(label, page, isActive=false, disabled=false, isEllipsis=false){
+    if(isEllipsis){ const s=document.createElement('span'); s.className='page-ellipsis'; s.textContent='…'; bar.appendChild(s); return; }
+    const b=document.createElement('button');
+    b.className='page-btn'+(isActive?' active':'');
+    b.disabled=disabled;
+    b.innerHTML=label;
+    if(!disabled) b.addEventListener('click',()=>{ currentPage=page; renderGrid(); renderPagination(); });
+    bar.appendChild(b);
+  }
+
+  // Prev
+  addBtn(`<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>`, currentPage-1, false, currentPage===1);
+
+  // Page numbers with ellipsis logic
+  const pages=[];
+  if(total<=7){ for(let i=1;i<=total;i++) pages.push(i); }
+  else {
+    pages.push(1);
+    if(currentPage>3) pages.push('…');
+    for(let i=Math.max(2,currentPage-1);i<=Math.min(total-1,currentPage+1);i++) pages.push(i);
+    if(currentPage<total-2) pages.push('…');
+    pages.push(total);
+  }
+  pages.forEach(p=> p==='…' ? addBtn('','',false,false,true) : addBtn(p,p,p===currentPage));
+
+  // Next
+  addBtn(`<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>`, currentPage+1, false, currentPage===total);
+}
+
+/* ════════════════════════════════════════════
+   STATS
+   ════════════════════════════════════════════ */
+function buildStats(){
+  const avg=(allReviews.reduce((s,r)=>s+r.rating,0)/allReviews.length).toFixed(1);
+  const perfects=allReviews.filter(r=>r.rating===10).length;
+  gsap.to({v:0},{v:parseFloat(avg),duration:1.8,ease:'power2.out',onUpdate:function(){document.getElementById('avg-score').textContent=this.targets()[0].v.toFixed(1);}});
+  gsap.to({v:0},{v:allReviews.length,duration:1.4,ease:'power2.out',onUpdate:function(){document.getElementById('total-count').textContent=Math.round(this.targets()[0].v);}});
+  gsap.to({v:0},{v:perfects,duration:1.6,ease:'power2.out',onUpdate:function(){document.getElementById('perfect-count').textContent=Math.round(this.targets()[0].v);}});
+}
+
+/* ════════════════════════════════════════════
+   EVENT WIRING
+   ════════════════════════════════════════════ */
+let searchTimer;
+document.getElementById('searchBox').addEventListener('input', e=>{
+  clearTimeout(searchTimer);
+  searchTimer=setTimeout(()=>{ searchTerm=e.target.value.trim(); applyFilterSort(); },280);
+});
+
+document.querySelectorAll('[data-filter]').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('[data-filter]').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    ratingFilter=btn.dataset.filter;
+    applyFilterSort();
+  });
+});
+
+document.getElementById('sortSelect').addEventListener('change', e=>{ sortMode=e.target.value; applyFilterSort(); });
+
+/* ════════════════════════════════════════════
+   HERO ENTRANCE
+   ════════════════════════════════════════════ */
+function heroEntrance(){
+  gsap.to(['#hero-badge','#hero-h1','#hero-sub','#hero-score','#hero-scroll'],
+    {opacity:1,y:0,duration:.8,stagger:.11,ease:'power3.out',delay:.2});
+}
+
+/* ════════════════════════════════════════════
+   INIT
+   ════════════════════════════════════════════ */
+async function init(){
+  try {
+    const res=await fetch(REVIEWS_JSON_PATH);
+    allReviews=await res.json();
+  } catch(e){
+    console.warn('Could not load reviews.json — using sample data.');
+    allReviews=[
+      {id:1,date:'Apr 29, 2026 6:07 pm',name:'Mohamed Arafath',pet:'Max',rating:10,review:'Among all the other so-called Computer Specialists, 24/7 Techies beats them all. They are the absolute best money could buy.'},
+      {id:2,date:'Apr 18, 2026 3:45 pm',name:'Sarah Thompson',pet:'Bella',rating:10,review:'Honestly couldn\'t be more impressed. Fast, professional, and genuinely friendly. My laptop came back like brand new.'},
+      {id:3,date:'Apr 10, 2026 11:20 am',name:'Ravi Perera',pet:'Bruno',rating:9,review:'Called them at midnight with a crisis and they actually picked up. Fixed my entire system remotely in under an hour.'},
+      {id:4,date:'Mar 28, 2026 2:15 pm',name:'Linda Cheng',pet:'Mochi',rating:10,review:'The team at 24/7 Techies is nothing short of magical. They recovered years of photos I thought were gone forever.'},
+      {id:5,date:'Mar 15, 2026 9:00 am',name:'James Obinna',pet:'Tiger',rating:9,review:'Super knowledgeable and they explain everything in plain English. No jargon, no upselling — just honest, brilliant support.'},
+    ];
+  }
+
+  // Spotlight = rating 10 reviews (or top 8 if fewer than 4 perfect scores)
+  spotlightReviews = allReviews.filter(r=>r.rating===10);
+  if(spotlightReviews.length < 4) spotlightReviews = [...allReviews].sort((a,b)=>b.rating-a.rating).slice(0,8);
+  spotlightReviews = spotlightReviews.slice(0,8); // cap at 8 in spotlight
+
+  buildTicker();
+  buildDots();
+  buildStats();
+  showFeatured(0,false);
+  heroEntrance();
+  startProgress();
+  applyFilterSort(); // initial render
+}
+
+init();
+</script>
+</body>
+</html>
