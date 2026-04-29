@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "date": "Aug 21, 2025 4:15 am",
+    "name": "Mohamed Arafath",
+    "pet": "Robert",
+    "rating": 10,
+    "review": "Aiden did a great job fixing my problem in 10 mins. Thanks so much!!"
+  },
+  {
+    "id": 2,
+    "date": "Aug 20, 2025 7:20 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Vic",
+    "rating": 10,
+    "review": "Thanks for an outstanding job, you set a record, 3 items in less than 2 minutes. Great teamwork."
+  },
+  {
+    "id": 3,
+    "date": "Aug 26, 2025 9:30 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Maryan",
+    "rating": 9,
+    "review": "We are happy with the services, especially when Aiden is helping."
+  },
+  {
+    "id": 4,
+    "date": "Sep 14, 2025 5:58 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Shari",
+    "rating": 10,
+    "review": "Aiden was wonderful and professional. More importantly, he fixed my issues. Your team is wonderful. I wish I didn’t have to deal with you as much!!"
+  },
+  {
+    "id": 5,
+    "date": "Sep 9, 2025 11:45 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Wendy",
+    "rating": 10,
+    "review": "Once again, Aiden solved my problem. He really is a whiz and I thank you all for all your help."
+  },
+  {
+    "id": 6,
+    "date": "Sep 21, 2025 11:16 am",
+    "name": "Mohamed Arafath",
+    "pet": "Ted",
+    "rating": 10,
+    "review": "Aiden was professional and diligent in his approach. Resolved the problem efficiently and took steps to help prevent possible recurrence in the future. Highly recommend."
+  },
+  {
+    "id": 7,
+    "date": "Sep 21, 2025 4:02 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Malcolm",
+    "rating": 10,
+    "review": "An extremely competent engineer resolved my concern swiftly at the first attempt."
+  },
+  {
+    "id": 8,
+    "date": "Sep 22, 2025 6:14 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Michael",
+    "rating": 10,
+    "review": "I spent an hour watching YouTube videos on how to stop our emails ending up in spam. I should have come to 247 Techies from the start, because it didn't take Aiden long to resolve the issues."
+  },
+  {
+    "id": 9,
+    "date": "Sep 22, 2025 6:15 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Michael",
+    "rating": 10,
+    "review": "Great service, thank you, Aiden."
+  },
+  {
+    "id": 10,
+    "date": "Oct 9, 2025 10:48 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Irene",
+    "rating": 10,
+    "review": "Aiden was extremely knowledgeable and efficient. Excellent service."
+  },
+  {
+    "id": 11,
+    "date": "Oct 17, 2025 3:27 am",
+    "name": "Mohamed Arafath",
+    "pet": "Theodore",
+    "rating": 10,
+    "review": "Aiden: Super job, thank you so much."
+  },
+  {
+    "id": 12,
+    "date": "Oct 21, 2025 11:54 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Pamela",
+    "rating": 10,
+    "review": "All the techies I have worked with were just great. Lately, Harry on Oct 20th and Aiden on Oct 21st were the most gracious and compassionate. Thank you so much, Pamela."
+  },
+  {
+    "id": 13,
+    "date": "Oct 23, 2025 6:46 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Simon",
+    "rating": 9,
+    "review": "Thanks Aiden for quick and efficient assistance."
+  },
+  {
+    "id": 14,
+    "date": "Oct 23, 2025 11:06 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Annette",
+    "rating": 10,
+    "review": "Aiden was very helpful."
+  },
+  {
+    "id": 15,
+    "date": "Oct 30, 2025 12:53 am",
+    "name": "Mohamed Arafath",
+    "pet": "Carolyn",
+    "rating": 10,
+    "review": "Aiden has helped me several times. He is technically excellent, very professional, and just plain nice."
+  },
+  {
+    "id": 16,
+    "date": "Oct 30, 2025 9:59 am",
+    "name": "Mohamed Arafath",
+    "pet": "Alex",
+    "rating": 10,
+    "review": "Both Harry and Aiden solved a very tricky problem very well and their level of work is always outstanding."
+  },
+  {
+    "id": 17,
+    "date": "Oct 30, 2025 10:04 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Annette",
+    "rating": 10,
+    "review": "Aiden is amazing! So extremely helpful!"
+  },
+  {
+    "id": 18,
+    "date": "Oct 30, 2025 9:06 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Michael",
+    "rating": 9,
+    "review": "Aiden was prompt and very good."
+  },
+  {
+    "id": 19,
+    "date": "Oct 31, 2025 12:08 am",
+    "name": "Mohamed Arafath",
+    "pet": "Annette",
+    "rating": 10,
+    "review": "Love Aiden! Great Techie!"
+  },
+  {
+    "id": 20,
+    "date": "Nov 6, 2025 9:00 pm",
+    "name": "Mohamed Arafath",
+    "pet": "James",
+    "rating": 10,
+    "review": "You guys are worth every penny I pay you. Thanks again."
+  },
+  {
+    "id": 21,
+    "date": "Nov 12, 2025 11:14 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Betty",
+    "rating": 10,
+    "review": "Aiden fixed the first issue and also cleaned up my computer when I asked. Now I have a lot more space. Thank you Aiden."
+  },
+  {
+    "id": 22,
+    "date": "Nov 13, 2025 9:27 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Robert",
+    "rating": 10,
+    "review": "Aiden did a fantastic job as usual. He is courteous, polite, and always resolves my issues. I would recommend him to anyone."
+  },
+  {
+    "id": 23,
+    "date": "Nov 15, 2025 2:39 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Nicholas",
+    "rating": 10,
+    "review": "Great service from Aiden. He got me back on track expertly and efficiently."
+  },
+  {
+    "id": 24,
+    "date": "Dec 2, 2025 9:51 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Amol",
+    "rating": 10,
+    "review": "He is very knowledgeable, solved the problem, and is always willing to help. I have recommended him to others."
+  },
+  {
+    "id": 25,
+    "date": "Dec 3, 2025 3:16 am",
+    "name": "Mohamed Arafath",
+    "pet": "Brind",
+    "rating": 10,
+    "review": "Aiden's professional and articulate help has been invaluable."
+  },
+  {
+    "id": 26,
+    "date": "Dec 5, 2025 12:05 am",
+    "name": "Mohamed Arafath",
+    "pet": "Jacqueline",
+    "rating": 10,
+    "review": "Aiden provided expert assistance to my issue. I am very grateful for his help. Thank you."
+  },
+  {
+    "id": 27,
+    "date": "Dec 6, 2025 3:39 am",
+    "name": "Mohamed Arafath",
+    "pet": "George",
+    "rating": 10,
+    "review": "Aiden was great and saved an important folder I had been working on for years. He saved the day!"
+  },
+  {
+    "id": 28,
+    "date": "Dec 12, 2025 11:29 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Paul",
+    "rating": 10,
+    "review": "Aiden tackled my problem persistently and would not stop until it was fixed. This is why I renewed my subscription."
+  },
+  {
+    "id": 29,
+    "date": "Dec 17, 2025 2:23 am",
+    "name": "Mohamed Arafath",
+    "pet": "Susan",
+    "rating": 10,
+    "review": "The best techies in the world."
+  },
+  {
+    "id": 30,
+    "date": "Dec 18, 2025 11:49 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Ray",
+    "rating": 10,
+    "review": "Excellent and knowledgeable help whenever needed. Technicians are patient and thorough. Great value."
+  },
+  {
+    "id": 31,
+    "date": "Dec 19, 2025 9:48 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Jacqueline",
+    "rating": 10,
+    "review": "Aiden went above and beyond to help me. The issue appears resolved and I am very grateful."
+  },
+  {
+    "id": 32,
+    "date": "Dec 22, 2025 10:15 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Michael",
+    "rating": 10,
+    "review": "Aiden deserves 11/10. He solved an issue even Apple and Google support could not."
+  },
+  {
+    "id": 33,
+    "date": "Dec 27, 2025 6:26 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Jacqueline",
+    "rating": 10,
+    "review": "Once again I received excellent service from Aiden, alleviating all my concerns."
+  },
+  {
+    "id": 34,
+    "date": "Dec 28, 2025 6:12 am",
+    "name": "Mohamed Arafath",
+    "pet": "Theodore",
+    "rating": 10,
+    "review": "Aiden and Harry did an outstanding job. Your support team is the best."
+  },
+  {
+    "id": 35,
+    "date": "Dec 28, 2025 6:22 am",
+    "name": "Mohamed Arafath",
+    "pet": "Vanessa",
+    "rating": 10,
+    "review": "Aiden did an excellent job optimizing and securing my laptop. Great service."
+  },
+  {
+    "id": 36,
+    "date": "Dec 29, 2025 4:07 am",
+    "name": "Mohamed Arafath",
+    "pet": "Theodore",
+    "rating": 10,
+    "review": "Aiden: Great job, thank you."
+  },
+  {
+    "id": 37,
+    "date": "Dec 29, 2025 5:33 am",
+    "name": "Mohamed Arafath",
+    "pet": "Dewey",
+    "rating": 10,
+    "review": "The service rep was courteous and fixed my problems quickly."
+  },
+  {
+    "id": 38,
+    "date": "Jan 1, 2026 8:17 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Thomas",
+    "rating": 10,
+    "review": "He was very patient with me given my lack of expertise."
+  },
+  {
+    "id": 39,
+    "date": "Jan 3, 2026 1:47 am",
+    "name": "Mohamed Arafath",
+    "pet": "Theodore",
+    "rating": 10,
+    "review": "Aiden: Fantastic job, thank you so much."
+  },
+  {
+    "id": 40,
+    "date": "Jan 4, 2026 9:44 am",
+    "name": "Mohamed Arafath",
+    "pet": "Alex",
+    "rating": 10,
+    "review": "Aiden’s work has always been excellent. Today was no exception."
+  }
+]
