@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "date": "Aug 21, 2025 4:15 am",
-    "name": "Mohamed Arafath",
-    "pet": "Robert",
-    "rating": 10,
-    "review": "Aiden did a great job fixing my problem in 10 mins. Thanks so much!!"
-  },
-  {
-    "id": 2,
     "date": "Aug 20, 2025 7:20 pm",
     "name": "Mohamed Arafath",
     "pet": "Vic",
     "rating": 10,
     "review": "Thanks for an outstanding job, you set a record, 3 items in less than 2 minutes. Great teamwork."
+  },
+  {
+    "id": 2,
+    "date": "Aug 21, 2025 4:15 am",
+    "name": "Mohamed Arafath",
+    "pet": "Robert",
+    "rating": 10,
+    "review": "Aiden did a great job fixing my problem in 10 mins. Thanks so much!!"
   },
   {
     "id": 3,
@@ -25,19 +25,19 @@
   },
   {
     "id": 4,
-    "date": "Sep 14, 2025 5:58 pm",
-    "name": "Mohamed Arafath",
-    "pet": "Shari",
-    "rating": 10,
-    "review": "Aiden was wonderful and professional. More importantly, he fixed my issues. Your team is wonderful. I wish I didn’t have to deal with you as much!!"
-  },
-  {
-    "id": 5,
     "date": "Sep 9, 2025 11:45 pm",
     "name": "Mohamed Arafath",
     "pet": "Wendy",
     "rating": 10,
-    "review": "Once again, Aiden solved my problem. He really is a whiz and I thank you all for all your help."
+    "review": "Once again, Aiden solved my problem. He really is a whiz and I thank you all for your help."
+  },
+  {
+    "id": 5,
+    "date": "Sep 14, 2025 5:58 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Shari",
+    "rating": 10,
+    "review": "Aiden was wonderful and professional. He fixed my issues."
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "name": "Mohamed Arafath",
     "pet": "Ted",
     "rating": 10,
-    "review": "Aiden was professional and diligent in his approach. Resolved the problem efficiently and took steps to help prevent possible recurrence in the future. Highly recommend."
+    "review": "Aiden was professional and diligent. Resolved the problem efficiently."
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "name": "Mohamed Arafath",
     "pet": "Malcolm",
     "rating": 10,
-    "review": "An extremely competent engineer resolved my concern swiftly at the first attempt."
+    "review": "An extremely competent engineer resolved my concern swiftly."
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "name": "Mohamed Arafath",
     "pet": "Michael",
     "rating": 10,
-    "review": "I spent an hour watching YouTube videos on how to stop our emails ending up in spam. I should have come to 247 Techies from the start, because it didn't take Aiden long to resolve the issues."
+    "review": "Aiden resolved my email issue quickly."
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "name": "Mohamed Arafath",
     "pet": "Michael",
     "rating": 10,
-    "review": "Great service, thank you, Aiden."
+    "review": "Great service, thank you Aiden."
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "name": "Mohamed Arafath",
     "pet": "Irene",
     "rating": 10,
-    "review": "Aiden was extremely knowledgeable and efficient. Excellent service."
+    "review": "Aiden was extremely knowledgeable and efficient."
   },
   {
     "id": 11,
@@ -93,7 +93,7 @@
     "name": "Mohamed Arafath",
     "pet": "Pamela",
     "rating": 10,
-    "review": "All the techies I have worked with were just great. Lately, Harry on Oct 20th and Aiden on Oct 21st were the most gracious and compassionate. Thank you so much, Pamela."
+    "review": "All techies were great. Harry and Aiden were especially helpful."
   },
   {
     "id": 13,
@@ -101,7 +101,7 @@
     "name": "Mohamed Arafath",
     "pet": "Simon",
     "rating": 9,
-    "review": "Thanks Aiden for quick and efficient assistance."
+    "review": "Quick and efficient assistance from Aiden."
   },
   {
     "id": 14,
@@ -117,7 +117,7 @@
     "name": "Mohamed Arafath",
     "pet": "Carolyn",
     "rating": 10,
-    "review": "Aiden has helped me several times. He is technically excellent, very professional, and just plain nice."
+    "review": "Technically excellent, professional, and kind."
   },
   {
     "id": 16,
@@ -125,7 +125,7 @@
     "name": "Mohamed Arafath",
     "pet": "Alex",
     "rating": 10,
-    "review": "Both Harry and Aiden solved a very tricky problem very well and their level of work is always outstanding."
+    "review": "Solved a tricky problem with outstanding quality."
   },
   {
     "id": 17,
@@ -133,7 +133,7 @@
     "name": "Mohamed Arafath",
     "pet": "Annette",
     "rating": 10,
-    "review": "Aiden is amazing! So extremely helpful!"
+    "review": "Aiden is amazing and extremely helpful."
   },
   {
     "id": 18,
@@ -141,7 +141,7 @@
     "name": "Mohamed Arafath",
     "pet": "Michael",
     "rating": 9,
-    "review": "Aiden was prompt and very good."
+    "review": "Prompt and very good support."
   },
   {
     "id": 19,
@@ -149,7 +149,7 @@
     "name": "Mohamed Arafath",
     "pet": "Annette",
     "rating": 10,
-    "review": "Love Aiden! Great Techie!"
+    "review": "Great techie, love Aiden."
   },
   {
     "id": 20,
@@ -157,7 +157,7 @@
     "name": "Mohamed Arafath",
     "pet": "James",
     "rating": 10,
-    "review": "You guys are worth every penny I pay you. Thanks again."
+    "review": "Worth every penny. Excellent service."
   },
   {
     "id": 21,
@@ -165,7 +165,7 @@
     "name": "Mohamed Arafath",
     "pet": "Betty",
     "rating": 10,
-    "review": "Aiden fixed the first issue and also cleaned up my computer when I asked. Now I have a lot more space. Thank you Aiden."
+    "review": "Aiden fixed issues and cleaned up my computer."
   },
   {
     "id": 22,
@@ -173,7 +173,7 @@
     "name": "Mohamed Arafath",
     "pet": "Robert",
     "rating": 10,
-    "review": "Aiden did a fantastic job as usual. He is courteous, polite, and always resolves my issues. I would recommend him to anyone."
+    "review": "Fantastic job as usual, very polite and effective."
   },
   {
     "id": 23,
@@ -181,7 +181,7 @@
     "name": "Mohamed Arafath",
     "pet": "Nicholas",
     "rating": 10,
-    "review": "Great service from Aiden. He got me back on track expertly and efficiently."
+    "review": "Great service, got me back on track."
   },
   {
     "id": 24,
@@ -189,7 +189,7 @@
     "name": "Mohamed Arafath",
     "pet": "Amol",
     "rating": 10,
-    "review": "He is very knowledgeable, solved the problem, and is always willing to help. I have recommended him to others."
+    "review": "Very knowledgeable and helpful."
   },
   {
     "id": 25,
@@ -197,7 +197,7 @@
     "name": "Mohamed Arafath",
     "pet": "Brind",
     "rating": 10,
-    "review": "Aiden's professional and articulate help has been invaluable."
+    "review": "Professional and articulate help."
   },
   {
     "id": 26,
@@ -205,7 +205,7 @@
     "name": "Mohamed Arafath",
     "pet": "Jacqueline",
     "rating": 10,
-    "review": "Aiden provided expert assistance to my issue. I am very grateful for his help. Thank you."
+    "review": "Expert assistance, very grateful."
   },
   {
     "id": 27,
@@ -213,7 +213,7 @@
     "name": "Mohamed Arafath",
     "pet": "George",
     "rating": 10,
-    "review": "Aiden was great and saved an important folder I had been working on for years. He saved the day!"
+    "review": "Saved an important folder. Amazing."
   },
   {
     "id": 28,
@@ -221,7 +221,7 @@
     "name": "Mohamed Arafath",
     "pet": "Paul",
     "rating": 10,
-    "review": "Aiden tackled my problem persistently and would not stop until it was fixed. This is why I renewed my subscription."
+    "review": "Persistent and resolved issue fully."
   },
   {
     "id": 29,
@@ -229,7 +229,7 @@
     "name": "Mohamed Arafath",
     "pet": "Susan",
     "rating": 10,
-    "review": "The best techies in the world."
+    "review": "Best techies in the world."
   },
   {
     "id": 30,
@@ -237,7 +237,7 @@
     "name": "Mohamed Arafath",
     "pet": "Ray",
     "rating": 10,
-    "review": "Excellent and knowledgeable help whenever needed. Technicians are patient and thorough. Great value."
+    "review": "Excellent and knowledgeable help."
   },
   {
     "id": 31,
@@ -245,7 +245,7 @@
     "name": "Mohamed Arafath",
     "pet": "Jacqueline",
     "rating": 10,
-    "review": "Aiden went above and beyond to help me. The issue appears resolved and I am very grateful."
+    "review": "Went above and beyond."
   },
   {
     "id": 32,
@@ -253,7 +253,7 @@
     "name": "Mohamed Arafath",
     "pet": "Michael",
     "rating": 10,
-    "review": "Aiden deserves 11/10. He solved an issue even Apple and Google support could not."
+    "review": "Solved issue others couldn\u2019t."
   },
   {
     "id": 33,
@@ -261,7 +261,7 @@
     "name": "Mohamed Arafath",
     "pet": "Jacqueline",
     "rating": 10,
-    "review": "Once again I received excellent service from Aiden, alleviating all my concerns."
+    "review": "Excellent service again."
   },
   {
     "id": 34,
@@ -269,7 +269,7 @@
     "name": "Mohamed Arafath",
     "pet": "Theodore",
     "rating": 10,
-    "review": "Aiden and Harry did an outstanding job. Your support team is the best."
+    "review": "Outstanding job by team."
   },
   {
     "id": 35,
@@ -277,7 +277,7 @@
     "name": "Mohamed Arafath",
     "pet": "Vanessa",
     "rating": 10,
-    "review": "Aiden did an excellent job optimizing and securing my laptop. Great service."
+    "review": "Optimized and secured laptop."
   },
   {
     "id": 36,
@@ -285,7 +285,7 @@
     "name": "Mohamed Arafath",
     "pet": "Theodore",
     "rating": 10,
-    "review": "Aiden: Great job, thank you."
+    "review": "Great job."
   },
   {
     "id": 37,
@@ -293,7 +293,7 @@
     "name": "Mohamed Arafath",
     "pet": "Dewey",
     "rating": 10,
-    "review": "The service rep was courteous and fixed my problems quickly."
+    "review": "Fixed problems quickly."
   },
   {
     "id": 38,
@@ -301,7 +301,7 @@
     "name": "Mohamed Arafath",
     "pet": "Thomas",
     "rating": 10,
-    "review": "He was very patient with me given my lack of expertise."
+    "review": "Very patient support."
   },
   {
     "id": 39,
@@ -309,7 +309,7 @@
     "name": "Mohamed Arafath",
     "pet": "Theodore",
     "rating": 10,
-    "review": "Aiden: Fantastic job, thank you so much."
+    "review": "Fantastic job."
   },
   {
     "id": 40,
@@ -317,7 +317,7 @@
     "name": "Mohamed Arafath",
     "pet": "Alex",
     "rating": 10,
-    "review": "Aiden’s work has always been excellent. Today was no exception."
+    "review": "Always excellent work."
   },
   {
     "id": 41,
@@ -325,7 +325,7 @@
     "name": "Mohamed Arafath",
     "pet": "Theodore",
     "rating": 10,
-    "review": "Aiden: Thank you so much, outstanding job."
+    "review": "Outstanding job."
   },
   {
     "id": 42,
@@ -333,7 +333,7 @@
     "name": "Mohamed Arafath",
     "pet": "Wesley",
     "rating": 10,
-    "review": "Aiden understood the issue and cleaned up the required aspects of the computer and email."
+    "review": "Cleaned up system effectively."
   },
   {
     "id": 43,
@@ -341,7 +341,7 @@
     "name": "Mohamed Arafath",
     "pet": "Kathleen",
     "rating": 10,
-    "review": "Aiden assisted in closing out the old computer and setting up the new one, including renewing services. Thank you for your support."
+    "review": "Helped with setup and renewal."
   },
   {
     "id": 44,
@@ -349,7 +349,7 @@
     "name": "Mohamed Arafath",
     "pet": "Vanessa",
     "rating": 10,
-    "review": "Aiden provided excellent support with my laptop, keeping it in good health. Many thanks."
+    "review": "Excellent laptop support."
   },
   {
     "id": 45,
@@ -357,7 +357,7 @@
     "name": "Mohamed Arafath",
     "pet": "Helen",
     "rating": 10,
-    "review": "As always, the tech addressed my issue quickly and ensured I was satisfied."
+    "review": "Quick resolution and clear explanation."
   },
   {
     "id": 46,
@@ -365,7 +365,7 @@
     "name": "Mohamed Arafath",
     "pet": "Jacqueline",
     "rating": 10,
-    "review": "As usual, Aiden provided excellent and knowledgeable service in resolving my issue."
+    "review": "Excellent service as usual."
   },
   {
     "id": 47,
@@ -373,7 +373,7 @@
     "name": "Mohamed Arafath",
     "pet": "Keith",
     "rating": 10,
-    "review": "Issue quickly and efficiently sorted out. Thank you Aiden."
+    "review": "Quick and efficient fix."
   },
   {
     "id": 48,
@@ -381,7 +381,7 @@
     "name": "Mohamed Arafath",
     "pet": "Jacqueline",
     "rating": 10,
-    "review": "Aiden's assistance is very much appreciated. He is truly an asset."
+    "review": "Truly an asset."
   },
   {
     "id": 49,
@@ -389,7 +389,7 @@
     "name": "Mohamed Arafath",
     "pet": "Amol",
     "rating": 10,
-    "review": "He is very knowledgeable, patient, and takes time to solve problems. I would recommend him to others."
+    "review": "Patient and knowledgeable."
   },
   {
     "id": 50,
@@ -397,86 +397,302 @@
     "name": "Mohamed Arafath",
     "pet": "Harry",
     "rating": 10,
-    "review": "Thank you Aiden. He is very smart."
+    "review": "Very smart and helpful."
   },
   {
     "id": 51,
+    "date": "Feb 8, 2026 6:08 am",
+    "name": "Mohamed Arafath",
+    "pet": "Theodore",
+    "rating": 10,
+    "review": "Outstanding job."
+  },
+  {
+    "id": 52,
     "date": "Feb 8, 2026 7:51 am",
     "name": "Mohamed Arafath",
     "pet": "Robert",
     "rating": 10,
-    "review": "Very pleased with the support provided. The technician resolved the issue with Parallels Desktop on Mac."
+    "review": "Resolved Mac issue successfully."
   },
   {
-    "id": 52,
+    "id": 53,
+    "date": "Feb 8, 2026 7:45 am",
+    "name": "Mohamed Arafath",
+    "pet": "Harry",
+    "rating": 10,
+    "review": "Great support."
+  },
+  {
+    "id": 54,
     "date": "Feb 10, 2026 6:32 pm",
     "name": "Mohamed Arafath",
     "pet": "Chris",
     "rating": 10,
-    "review": "Good listening and prompt response."
+    "review": "Good listening and response."
   },
   {
-    "id": 53,
+    "id": 55,
     "date": "Feb 10, 2026 9:28 pm",
     "name": "Mohamed Arafath",
     "pet": "Barry",
     "rating": 10,
-    "review": "Problem resolved quickly, professionally, and effectively."
+    "review": "Resolved quickly and professionally."
   },
   {
-    "id": 54,
+    "id": 56,
     "date": "Feb 11, 2026 9:48 pm",
     "name": "Mohamed Arafath",
     "pet": "Trevor",
     "rating": 10,
-    "review": "Aiden was excellent, professional, polite, and supportive during a challenging time."
+    "review": "Excellent and professional."
   },
   {
-    "id": 55,
+    "id": 57,
     "date": "Feb 15, 2026 7:54 pm",
     "name": "Mohamed Arafath",
     "pet": "Vanessa",
     "rating": 10,
-    "review": "Excellent service from Aiden. I could not have completed my task without his help."
+    "review": "Couldn\u2019t complete task without help."
   },
   {
-    "id": 56,
+    "id": 58,
     "date": "Feb 18, 2026 12:55 am",
     "name": "Mohamed Arafath",
     "pet": "Terry",
     "rating": 10,
-    "review": "Aiden is clear, helpful, and ensures the issue is resolved to satisfaction."
+    "review": "Clear and helpful."
   },
   {
-    "id": 57,
+    "id": 59,
     "date": "Feb 21, 2026 2:11 am",
     "name": "Mohamed Arafath",
     "pet": "Victor",
     "rating": 9,
-    "review": "Aiden did an excellent job scanning my computer after a security concern."
+    "review": "Handled security issue well."
   },
   {
-    "id": 58,
+    "id": 60,
     "date": "Feb 21, 2026 3:00 am",
     "name": "Mohamed Arafath",
     "pet": "Barb",
     "rating": 10,
-    "review": "Aiden solved my issue immediately."
+    "review": "Solved immediately."
   },
   {
-    "id": 59,
+    "id": 61,
     "date": "Feb 25, 2026 2:57 am",
     "name": "Mohamed Arafath",
     "pet": "Shelly",
     "rating": 10,
-    "review": "Great experience every time. Knowledgeable and pleasant support team."
+    "review": "Great experience every time."
   },
   {
-    "id": 60,
+    "id": 62,
     "date": "Feb 26, 2026 7:51 pm",
     "name": "Mohamed Arafath",
     "pet": "Roy",
     "rating": 10,
-    "review": "Amazing skill, patience, and professionalism. Thank you Aiden for your support."
+    "review": "Amazing patience and professionalism."
+  },
+  {
+    "id": 63,
+    "date": "Mar 8, 2026 4:13 am",
+    "name": "Mohamed Arafath",
+    "pet": "Karin",
+    "rating": 10,
+    "review": "Fixed printer issue brilliantly."
+  },
+  {
+    "id": 64,
+    "date": "Mar 11, 2026 12:10 am",
+    "name": "Mohamed Arafath",
+    "pet": "Charles",
+    "rating": 10,
+    "review": "Helped with document writing."
+  },
+  {
+    "id": 65,
+    "date": "Mar 13, 2026 9:50 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Jacqueline",
+    "rating": 10,
+    "review": "Handled issue perfectly."
+  },
+  {
+    "id": 66,
+    "date": "Mar 16, 2026 7:56 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Charles",
+    "rating": 10,
+    "review": "Helped with email readability."
+  },
+  {
+    "id": 67,
+    "date": "Mar 19, 2026 7:57 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Vic",
+    "rating": 10,
+    "review": "Solved issues quickly."
+  },
+  {
+    "id": 68,
+    "date": "Mar 19, 2026 7:29 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Susan",
+    "rating": 10,
+    "review": "Polite and professional."
+  },
+  {
+    "id": 69,
+    "date": "Mar 19, 2026 10:18 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Brind",
+    "rating": 10,
+    "review": "Excellent guidance."
+  },
+  {
+    "id": 70,
+    "date": "Mar 21, 2026 4:24 am",
+    "name": "Mohamed Arafath",
+    "pet": "Theodore",
+    "rating": 10,
+    "review": "Very good job again."
+  },
+  {
+    "id": 71,
+    "date": "Mar 28, 2026 6:59 am",
+    "name": "Mohamed Arafath",
+    "pet": "Harry",
+    "rating": 10,
+    "review": "Fast and accurate."
+  },
+  {
+    "id": 72,
+    "date": "Mar 31, 2026 1:52 am",
+    "name": "Mohamed Arafath",
+    "pet": "Charles",
+    "rating": 10,
+    "review": "Fixed scanner."
+  },
+  {
+    "id": 73,
+    "date": "Apr 3, 2026 1:48 am",
+    "name": "Mohamed Arafath",
+    "pet": "Brind",
+    "rating": 10,
+    "review": "Clear and useful advice."
+  },
+  {
+    "id": 74,
+    "date": "Apr 5, 2026 4:10 am",
+    "name": "Mohamed Arafath",
+    "pet": "Paul",
+    "rating": 10,
+    "review": "Helped avoid fraud."
+  },
+  {
+    "id": 75,
+    "date": "Apr 7, 2026 11:26 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Michael",
+    "rating": 10,
+    "review": "Handled complex session well."
+  },
+  {
+    "id": 76,
+    "date": "Apr 11, 2026 3:02 am",
+    "name": "Mohamed Arafath",
+    "pet": "Charles",
+    "rating": 10,
+    "review": "Helped with survey."
+  },
+  {
+    "id": 77,
+    "date": "Apr 11, 2026 9:01 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Karin",
+    "rating": 10,
+    "review": "Solved issues quickly."
+  },
+  {
+    "id": 78,
+    "date": "Apr 11, 2026 10:57 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Dwight",
+    "rating": 10,
+    "review": "Showed tasks clearly."
+  },
+  {
+    "id": 79,
+    "date": "Apr 14, 2026 10:06 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Jimmy",
+    "rating": 10,
+    "review": "Solved quickly."
+  },
+  {
+    "id": 80,
+    "date": "Apr 16, 2026 12:40 am",
+    "name": "Mohamed Arafath",
+    "pet": "Jacqueline",
+    "rating": 10,
+    "review": "Issue resolved."
+  },
+  {
+    "id": 81,
+    "date": "Apr 18, 2026 8:21 am",
+    "name": "Mohamed Arafath",
+    "pet": "Jeannette",
+    "rating": 10,
+    "review": "Corrected immediately."
+  },
+  {
+    "id": 82,
+    "date": "Apr 19, 2026 4:26 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Alex",
+    "rating": 10,
+    "review": "Very competent."
+  },
+  {
+    "id": 83,
+    "date": "Apr 20, 2026 11:41 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Gary",
+    "rating": 10,
+    "review": "Great help."
+  },
+  {
+    "id": 84,
+    "date": "Apr 26, 2026 4:06 am",
+    "name": "Mohamed Arafath",
+    "pet": "Oscar",
+    "rating": 10,
+    "review": "Resolved printer issue."
+  },
+  {
+    "id": 85,
+    "date": "Apr 28, 2026 4:21 am",
+    "name": "Mohamed Arafath",
+    "pet": "Gigi",
+    "rating": 10,
+    "review": "Always amazing."
+  },
+  {
+    "id": 86,
+    "date": "Apr 29, 2026 6:07 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Max",
+    "rating": 10,
+    "review": "Best service available."
+  },
+  {
+    "id": 87,
+    "date": "Apr 29, 2026 9:06 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Joyce",
+    "rating": 10,
+    "review": "Quick adjustments and great advice."
   }
 ]
