@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "date": "Aug 20, 2025 7:20 pm",
-    "name": "Mohamed Arafath",
-    "pet": "Vic",
-    "rating": 10,
-    "review": "Thanks for an outstanding job, you set a record, 3 items in less than 2 minutes. Great teamwork."
-  },
-  {
-    "id": 2,
     "date": "Aug 21, 2025 4:15 am",
     "name": "Mohamed Arafath",
     "pet": "Robert",
     "rating": 10,
-    "review": "Aiden did a great job fixing my problem in 10 mins. Thanks so much!!"
+    "review": "Aiden did a great job fixing my problem in 10 mins.  Thanks so much!!"
+  },
+  {
+    "id": 2,
+    "date": "Aug 20, 2025 7:20 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Vic",
+    "rating": 10,
+    "review": "tThanks for an outstanding job , you set a record ,3 items in less than 2 minutes   . Great team work  "
   },
   {
     "id": 3,
@@ -21,23 +21,23 @@
     "name": "Mohamed Arafath",
     "pet": "Maryan",
     "rating": 9,
-    "review": "We are happy with the services, especially when Aiden is helping."
+    "review": "we are happy with the services especially when Aiden is helping."
   },
   {
     "id": 4,
-    "date": "Sep 9, 2025 11:45 pm",
-    "name": "Mohamed Arafath",
-    "pet": "Wendy",
-    "rating": 10,
-    "review": "Once again, Aiden solved my problem. He really is a whiz and I thank you all for your help."
-  },
-  {
-    "id": 5,
     "date": "Sep 14, 2025 5:58 pm",
     "name": "Mohamed Arafath",
     "pet": "Shari",
     "rating": 10,
-    "review": "Aiden was wonderful and professional. He fixed my issues."
+    "review": "Aiden was wonderful and professional. More important he fixed my issues . Your team is wonderful. I wish I didn’t have to deal with you as much!!"
+  },
+  {
+    "id": 5,
+    "date": "Sep 9, 2025 11:45 pm",
+    "name": "Mohamed Arafath",
+    "pet": "Wendy",
+    "rating": 10,
+    "review": "Once again, Aiden solved my problem. He really is a whiz and I thank you all for all your help."
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "name": "Mohamed Arafath",
     "pet": "Ted",
     "rating": 10,
-    "review": "Aiden was professional and diligent. Resolved the problem efficiently."
+    "review": "Aiden was professional and diligent in his approach. Resolved the problem efficiently and took steps to help prevent possible recurrence in the future. Highly recommend."
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "name": "Mohamed Arafath",
     "pet": "Malcolm",
     "rating": 10,
-    "review": "An extremely competent engineer resolved my concern swiftly."
+    "review": "An extremely competent engineer resolved my concern swiftly at the first attempt."
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "name": "Mohamed Arafath",
     "pet": "Michael",
     "rating": 10,
-    "review": "Aiden resolved my email issue quickly."
+    "review": "I spent an hour watching YouTube videos on how to stop our emails ending up in the spam boxes of our friends.  I should have come to 247 techies from the get go, because it didn't take Aiden long to resolve the issues."
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "name": "Mohamed Arafath",
     "pet": "Michael",
     "rating": 10,
-    "review": "Great service, thank you Aiden."
+    "review": "Great service, thank you, Aiden."
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "name": "Mohamed Arafath",
     "pet": "Irene",
     "rating": 10,
-    "review": "Aiden was extremely knowledgeable and efficient."
+    "review": "Aiden was extremely knowledgeable and efficient, Excellent service"
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@
     "name": "Mohamed Arafath",
     "pet": "Theodore",
     "rating": 10,
-    "review": "Aiden: Super job, thank you so much."
+    "review": "AIDEN: SUPER JOB, THANK YOU SO MUCH."
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@
     "name": "Mohamed Arafath",
     "pet": "Pamela",
     "rating": 10,
-    "review": "All techies were great. Harry and Aiden were especially helpful."
+    "review": "All the techies' I have worked with were just great. Lately, Harry on Oct 20th & Aiden on Oct 21st were the most gracious & compassionate. Thank you so much, Pamela"
   },
   {
     "id": 13,
@@ -101,7 +101,7 @@
     "name": "Mohamed Arafath",
     "pet": "Simon",
     "rating": 9,
-    "review": "Quick and efficient assistance from Aiden."
+    "review": "Thanks Aiden for quick and efficient assistance"
   },
   {
     "id": 14,
@@ -117,7 +117,7 @@
     "name": "Mohamed Arafath",
     "pet": "Carolyn",
     "rating": 10,
-    "review": "Technically excellent, professional, and kind."
+    "review": "Aiden has helped me several times.  He is technically excellent and very professional and .....just plain nice. \nDr. Carolyn Self"
   },
   {
     "id": 16,
@@ -125,7 +125,7 @@
     "name": "Mohamed Arafath",
     "pet": "Alex",
     "rating": 10,
-    "review": "Solved a tricky problem with outstanding quality."
+    "review": "Both Harry and Aiden solved a vey tricking problem very well and their level of work is aways outstanding. Alex."
   },
   {
     "id": 17,
@@ -133,7 +133,7 @@
     "name": "Mohamed Arafath",
     "pet": "Annette",
     "rating": 10,
-    "review": "Aiden is amazing and extremely helpful."
+    "review": "Aiden is amazing!  So extremely helpful!"
   },
   {
     "id": 18,
@@ -141,7 +141,7 @@
     "name": "Mohamed Arafath",
     "pet": "Michael",
     "rating": 9,
-    "review": "Prompt and very good support."
+    "review": "Aidan  prompt and very good"
   },
   {
     "id": 19,
@@ -149,7 +149,7 @@
     "name": "Mohamed Arafath",
     "pet": "Annette",
     "rating": 10,
-    "review": "Great techie, love Aiden."
+    "review": "Love Aiden!  Great Techie!"
   },
   {
     "id": 20,
@@ -157,7 +157,7 @@
     "name": "Mohamed Arafath",
     "pet": "James",
     "rating": 10,
-    "review": "Worth every penny. Excellent service."
+    "review": "You guys are worth every penny I pay you. \nThanks again.\n\nJim"
   },
   {
     "id": 21,
@@ -165,7 +165,7 @@
     "name": "Mohamed Arafath",
     "pet": "Betty",
     "rating": 10,
-    "review": "Aiden fixed issues and cleaned up my computer."
+    "review": "Aiden fix the first issue and when I asked if he had time to clean up my computer, he did hesitate, said he could do that.  Now I have a lot more space on my computer.  Thank you Aiden"
   },
   {
     "id": 22,
@@ -173,7 +173,7 @@
     "name": "Mohamed Arafath",
     "pet": "Robert",
     "rating": 10,
-    "review": "Fantastic job as usual, very polite and effective."
+    "review": "Aiden did a fantastic job for me today, as usual. He is very courteous, polite, and never fails to sort out any issues I have. \nI would always recommend him to any one.\n\nThanks again, Aiden.\n\nWith best wishes,\nRob Hargroves"
   },
   {
     "id": 23,
@@ -181,7 +181,7 @@
     "name": "Mohamed Arafath",
     "pet": "Nicholas",
     "rating": 10,
-    "review": "Great service, got me back on track."
+    "review": "Great service from Aiden.   He got me back on track expertly and efficiently."
   },
   {
     "id": 24,
@@ -189,7 +189,7 @@
     "name": "Mohamed Arafath",
     "pet": "Amol",
     "rating": 10,
-    "review": "Very knowledgeable and helpful."
+    "review": "He is very knowledgeable and solve the problem and willing to help the customer 1 i recommended some other people also "
   },
   {
     "id": 25,
@@ -197,7 +197,7 @@
     "name": "Mohamed Arafath",
     "pet": "Brind",
     "rating": 10,
-    "review": "Professional and articulate help."
+    "review": "Aiden's professional and articulate help has been invaluable"
   },
   {
     "id": 26,
@@ -205,7 +205,7 @@
     "name": "Mohamed Arafath",
     "pet": "Jacqueline",
     "rating": 10,
-    "review": "Expert assistance, very grateful."
+    "review": "Aiden provided me with expert assistance to my issue. I am very grateful for his help Thank you."
   },
   {
     "id": 27,
@@ -213,7 +213,7 @@
     "name": "Mohamed Arafath",
     "pet": "George",
     "rating": 10,
-    "review": "Saved an important folder. Amazing."
+    "review": "Aiden was great!!! Saved a folder that disappeared!  The folder only contained about a third of a book I have been working on for three years. Most backed-up but not completely. Aiden saved the day! \nThanks to all!"
   },
   {
     "id": 28,
@@ -221,7 +221,7 @@
     "name": "Mohamed Arafath",
     "pet": "Paul",
     "rating": 10,
-    "review": "Persistent and resolved issue fully."
+    "review": "Aiden was like \"A dog with a bone\" in the way he attacked my problem.  He dove in and would not stop until he corrected my issue.  It is because of people like him that I signed on to 24/7 techies and renewed when my subscription expired."
   },
   {
     "id": 29,
@@ -229,7 +229,7 @@
     "name": "Mohamed Arafath",
     "pet": "Susan",
     "rating": 10,
-    "review": "Best techies in the world."
+    "review": "The best techies in the world."
   },
   {
     "id": 30,
@@ -237,7 +237,7 @@
     "name": "Mohamed Arafath",
     "pet": "Ray",
     "rating": 10,
-    "review": "Excellent and knowledgeable help."
+    "review": "Excellent and knowledgeable help - when I need it - which is frequently. The technicians have patience and stay problems until solutions are found. A great resource that is well worth the money."
   },
   {
     "id": 31,
@@ -245,7 +245,7 @@
     "name": "Mohamed Arafath",
     "pet": "Jacqueline",
     "rating": 10,
-    "review": "Went above and beyond."
+    "review": "I encountered a major problem and contacted Aidan at 24/7 Techies - for assistance. He went over and beyond helping me. It appears that the problem is corrected and I am so grateful for Aidan's expertise and help. I thank you so much for your wonderful Techies and thanks Aidan."
   },
   {
     "id": 32,
@@ -253,7 +253,7 @@
     "name": "Mohamed Arafath",
     "pet": "Michael",
     "rating": 10,
-    "review": "Solved issue others couldn\u2019t."
+    "review": "Aidan        should be 11/10 , as 247 Aidan helped , where both the Techs from APPLE and Google could not get to access  to  - \n\"Create a new Email. \"         thanks  Mike J."
   },
   {
     "id": 33,
@@ -261,7 +261,7 @@
     "name": "Mohamed Arafath",
     "pet": "Jacqueline",
     "rating": 10,
-    "review": "Excellent service again."
+    "review": "Once again I received excellent service from Aidan allivieating all my concerns. Thank you, Aidan."
   },
   {
     "id": 34,
@@ -269,7 +269,7 @@
     "name": "Mohamed Arafath",
     "pet": "Theodore",
     "rating": 10,
-    "review": "Outstanding job by team."
+    "review": "AIDEN AND HARRY OUTSTANDING JOB YOUR SUPPORT TEAM IS THE BEST."
   },
   {
     "id": 35,
@@ -277,7 +277,7 @@
     "name": "Mohamed Arafath",
     "pet": "Vanessa",
     "rating": 10,
-    "review": "Optimized and secured laptop."
+    "review": "Aiden did an excrllent job of optamising and making my laptop secure. Great 24/7 techie service!"
   },
   {
     "id": 36,
@@ -285,7 +285,7 @@
     "name": "Mohamed Arafath",
     "pet": "Theodore",
     "rating": 10,
-    "review": "Great job."
+    "review": "AIDEN: GREAT JOB, THANK YOU."
   },
   {
     "id": 37,
@@ -293,7 +293,7 @@
     "name": "Mohamed Arafath",
     "pet": "Dewey",
     "rating": 10,
-    "review": "Fixed problems quickly."
+    "review": "The service rep was courteous and fixed my problems quickly."
   },
   {
     "id": 38,
@@ -301,7 +301,7 @@
     "name": "Mohamed Arafath",
     "pet": "Thomas",
     "rating": 10,
-    "review": "Very patient support."
+    "review": "He was very patient with me in view of my lack of expertise in this area."
   },
   {
     "id": 39,
@@ -309,7 +309,7 @@
     "name": "Mohamed Arafath",
     "pet": "Theodore",
     "rating": 10,
-    "review": "Fantastic job."
+    "review": "AIDEN: fantastic job. thank you so much."
   },
   {
     "id": 40,
@@ -317,7 +317,7 @@
     "name": "Mohamed Arafath",
     "pet": "Alex",
     "rating": 10,
-    "review": "Always excellent work."
+    "review": "Aiden’s work has always been excellent. Today is no exception. I am unable to penetrate the glass on the phone however iris 10/10. Alex"
   },
   {
     "id": 41,
@@ -325,7 +325,7 @@
     "name": "Mohamed Arafath",
     "pet": "Theodore",
     "rating": 10,
-    "review": "Outstanding job."
+    "review": "AIDEN: THANK YOU SO MUCH OUT STANDING JOB."
   },
   {
     "id": 42,
@@ -333,7 +333,7 @@
     "name": "Mohamed Arafath",
     "pet": "Wesley",
     "rating": 10,
-    "review": "Cleaned up system effectively."
+    "review": "Aiden understood the issue and cleaned up required aspects of computer and e-mail, accordingly."
   },
   {
     "id": 43,
@@ -341,7 +341,7 @@
     "name": "Mohamed Arafath",
     "pet": "Kathleen",
     "rating": 10,
-    "review": "Helped with setup and renewal."
+    "review": "Aiden assisted in full closure of outdated computer & checked new computer connections; assisted in updating tech services for another 6mos coverage. Thank you for your support."
   },
   {
     "id": 44,
@@ -349,7 +349,7 @@
     "name": "Mohamed Arafath",
     "pet": "Vanessa",
     "rating": 10,
-    "review": "Excellent laptop support."
+    "review": "Aiden provided excellent dipport eith my laptop keeping it on good health. Many thanks!"
   },
   {
     "id": 45,
@@ -357,7 +357,7 @@
     "name": "Mohamed Arafath",
     "pet": "Helen",
     "rating": 10,
-    "review": "Quick resolution and clear explanation."
+    "review": "As always the tech was able to address my issue and resolve it quickly.  He explained what happened and  made sure I was satisfied."
   },
   {
     "id": 46,
@@ -365,7 +365,7 @@
     "name": "Mohamed Arafath",
     "pet": "Jacqueline",
     "rating": 10,
-    "review": "Excellent service as usual."
+    "review": "As usual, Aidan provided excellent and knowledgeable service in resolving my issue. Thank you very much for your assistance, Aidan."
   },
   {
     "id": 47,
@@ -373,7 +373,7 @@
     "name": "Mohamed Arafath",
     "pet": "Keith",
     "rating": 10,
-    "review": "Quick and efficient fix."
+    "review": "Issue quickly and efficiently sorted out can carry on with my day job with little to no inconvenience thank you Aiden"
   },
   {
     "id": 48,
@@ -381,7 +381,7 @@
     "name": "Mohamed Arafath",
     "pet": "Jacqueline",
     "rating": 10,
-    "review": "Truly an asset."
+    "review": "Aiden's assistance is very much appreciated. He is truly an asset to 24/7 Techies."
   },
   {
     "id": 49,
@@ -389,7 +389,7 @@
     "name": "Mohamed Arafath",
     "pet": "Amol",
     "rating": 10,
-    "review": "Patient and knowledgeable."
+    "review": "He is very good and take his time to solve the problem. He has lots of knowledge and patience. i will recommend his name to my friend and also they are joining your 24/7"
   },
   {
     "id": 50,
@@ -397,7 +397,7 @@
     "name": "Mohamed Arafath",
     "pet": "Harry",
     "rating": 10,
-    "review": "Very smart and helpful."
+    "review": "Thank you Aiden - he is smart boy, Harry Kovsky"
   },
   {
     "id": 51,
@@ -405,7 +405,7 @@
     "name": "Mohamed Arafath",
     "pet": "Theodore",
     "rating": 10,
-    "review": "Outstanding job."
+    "review": "AIDEN: THANK YOU SO MUCH FOR A OUT STANDING JOB."
   },
   {
     "id": 52,
@@ -413,7 +413,7 @@
     "name": "Mohamed Arafath",
     "pet": "Robert",
     "rating": 10,
-    "review": "Resolved Mac issue successfully."
+    "review": "I am very pleased with the support provided; the technician did a great job resolving the issues with the Parallels Desktop app on my Mac. I would rate the service a 10 out of 10."
   },
   {
     "id": 53,
@@ -421,7 +421,7 @@
     "name": "Mohamed Arafath",
     "pet": "Harry",
     "rating": 10,
-    "review": "Great support."
+    "review": "You page wont scroll up so I cant send it – 10 for Aiden. Harry Kovsky"
   },
   {
     "id": 54,
@@ -429,7 +429,7 @@
     "name": "Mohamed Arafath",
     "pet": "Chris",
     "rating": 10,
-    "review": "Good listening and response."
+    "review": "Good listening and prompt response to comments."
   },
   {
     "id": 55,
@@ -437,7 +437,7 @@
     "name": "Mohamed Arafath",
     "pet": "Barry",
     "rating": 10,
-    "review": "Resolved quickly and professionally."
+    "review": "Problem was resolved in less than 10 minutes. The resxolution was done professionally, accurately and effectively."
   },
   {
     "id": 56,
@@ -445,7 +445,7 @@
     "name": "Mohamed Arafath",
     "pet": "Trevor",
     "rating": 10,
-    "review": "Excellent and professional."
+    "review": "Aiden was excellent and very professional He was very polite and hospitable during a challenging time."
   },
   {
     "id": 57,
@@ -453,7 +453,7 @@
     "name": "Mohamed Arafath",
     "pet": "Vanessa",
     "rating": 10,
-    "review": "Couldn\u2019t complete task without help."
+    "review": "Excellent service from Aiden...without his able assistance I would not have been able to complete my task. Thanks so much!"
   },
   {
     "id": 58,
@@ -461,7 +461,7 @@
     "name": "Mohamed Arafath",
     "pet": "Terry",
     "rating": 10,
-    "review": "Clear and helpful."
+    "review": "Aiden is always clear and helpful. Most important he follows through to ensure the issue was completed to my satisfaction. Thank you for your superb customer service."
   },
   {
     "id": 59,
@@ -469,7 +469,7 @@
     "name": "Mohamed Arafath",
     "pet": "Victor",
     "rating": 9,
-    "review": "Handled security issue well."
+    "review": "Aiden did an excellent job of scanning my computer after a Hacker tried to access it. Well done!"
   },
   {
     "id": 60,
@@ -477,7 +477,7 @@
     "name": "Mohamed Arafath",
     "pet": "Barb",
     "rating": 10,
-    "review": "Solved immediately."
+    "review": "Aiden was able to solve my issue immediately."
   },
   {
     "id": 61,
@@ -485,7 +485,7 @@
     "name": "Mohamed Arafath",
     "pet": "Shelly",
     "rating": 10,
-    "review": "Great experience every time."
+    "review": "Just finished a session with Aiden and he was GREAT!  I've used the service about three times now and am always satisfied with the outcomes and also with the individuals that assist me.  Everyone is pleasant to work with, and knowledgeable.  Very happy with 247Techies!"
   },
   {
     "id": 62,
@@ -493,7 +493,7 @@
     "name": "Mohamed Arafath",
     "pet": "Roy",
     "rating": 10,
-    "review": "Amazing patience and professionalism."
+    "review": "I really have to comment on your techies amazing skill in all things, nothing stumps them, but more than this I'd like to remark on their amazing patience & good manners at all times... never known anyone over the years that I have been using 247Techies to be tired, or short tempered - you really are the BEST!   Thanks Aiden tonight for being patient with me, its been a long day, I was tired and not at my brightest!?!  Thanks mate!"
   },
   {
     "id": 63,
@@ -501,7 +501,7 @@
     "name": "Mohamed Arafath",
     "pet": "Karin",
     "rating": 10,
-    "review": "Fixed printer issue brilliantly."
+    "review": "Aiden was excellent, he knew his stuff, fixed the problem with HP Printer Assist that had been hounding me for months and did it brilliantly!!"
   },
   {
     "id": 64,
@@ -509,7 +509,7 @@
     "name": "Mohamed Arafath",
     "pet": "Charles",
     "rating": 10,
-    "review": "Helped with document writing."
+    "review": "Aiden helped me to write a letter because I didn't know how to use Open Office."
   },
   {
     "id": 65,
@@ -517,7 +517,7 @@
     "name": "Mohamed Arafath",
     "pet": "Jacqueline",
     "rating": 10,
-    "review": "Handled issue perfectly."
+    "review": "I submitted my evaluation - but I am not sure that you received it. Aidan handled my issue promptly, efficiently, professionally, and totally satisfactorily, as he always does. He is truly an asset to Techies - Jackie K."
   },
   {
     "id": 66,
@@ -525,7 +525,7 @@
     "name": "Mohamed Arafath",
     "pet": "Charles",
     "rating": 10,
-    "review": "Helped with email readability."
+    "review": "Aiden did a fine job in helping me print and read an email that was too small to read."
   },
   {
     "id": 67,
@@ -533,7 +533,7 @@
     "name": "Mohamed Arafath",
     "pet": "Vic",
     "rating": 10,
-    "review": "Solved issues quickly."
+    "review": "Thanks so much Aiden , great jog in a very quick time , solved both of my issues ."
   },
   {
     "id": 68,
@@ -541,7 +541,7 @@
     "name": "Mohamed Arafath",
     "pet": "Susan",
     "rating": 10,
-    "review": "Polite and professional."
+    "review": "The technician was polite, professional and competent - my issue was solved."
   },
   {
     "id": 69,
@@ -549,7 +549,7 @@
     "name": "Mohamed Arafath",
     "pet": "Brind",
     "rating": 10,
-    "review": "Excellent guidance."
+    "review": "Aiden knew exactly what solutions I needed to address my issues on management of my files including extracting zip files for further use; access to all apps on my Home page, and creating quick access to eg presentations using favourites. His advice was clear, articulate and useful. THANK YOU"
   },
   {
     "id": 70,
@@ -557,7 +557,7 @@
     "name": "Mohamed Arafath",
     "pet": "Theodore",
     "rating": 10,
-    "review": "Very good job again."
+    "review": "AIDEN: VERY VERY GOOD JOB AGAIN AND THANK YOU SO MUCH FROM THE BOTTOM OF MY HART."
   },
   {
     "id": 71,
@@ -565,7 +565,7 @@
     "name": "Mohamed Arafath",
     "pet": "Harry",
     "rating": 10,
-    "review": "Fast and accurate."
+    "review": "Aiden did a good job. Fast and accurate. Thank you Aiden. Harry Kovsky"
   },
   {
     "id": 72,
@@ -573,7 +573,7 @@
     "name": "Mohamed Arafath",
     "pet": "Charles",
     "rating": 10,
-    "review": "Fixed scanner."
+    "review": "God bless Aiden.  He got my scanner to scan again."
   },
   {
     "id": 73,
@@ -581,7 +581,7 @@
     "name": "Mohamed Arafath",
     "pet": "Brind",
     "rating": 10,
-    "review": "Clear and useful advice."
+    "review": "Aiden promptly responded. Brilliant consultation: clear, articulate, most useful advice for me to proceed with my work in a fluent way. I feel I have better command of windows and pdf to manage my documents of different types. THANK YOU."
   },
   {
     "id": 74,
@@ -589,7 +589,7 @@
     "name": "Mohamed Arafath",
     "pet": "Paul",
     "rating": 10,
-    "review": "Helped avoid fraud."
+    "review": "always helpful.  This centered on a scam/fraud payment solicitation, and Aiden assured me that I did not have an auto-payment through PayPal even though I did have scam operations on a couple of cards that needed and were replaced which lent credibility to the fraudulent claim that the method of payment was no longer capable of making the payment.  Aiden was super and appreciated his assistance in my making the payment with you before I could have stepped into another fraud situation.  Always appreciate the talent/skill rendered to me to get me, a non-techy, out of a mess or to get the computer up and running. Don't know what I would do without 24/7 Techies. They truly are there FOR ME!!!!!!!! THANK YOU."
   },
   {
     "id": 75,
@@ -597,7 +597,7 @@
     "name": "Mohamed Arafath",
     "pet": "Michael",
     "rating": 10,
-    "review": "Handled complex session well."
+    "review": "247 techie Aiden ' a very hard session for me and also Aiden . Aiden persevered despite various problems - Finally we jointly secured objective of enabling \" copy 2 and Epson smart scan installed on PC  and working on my new Epson  XP 4205 printer. it was somewhat a marathon but we got there  mainly thank you to Aiden for his patience . a  very well deserved \" 10 \"   Excellent . .  Mike J"
   },
   {
     "id": 76,
@@ -605,7 +605,7 @@
     "name": "Mohamed Arafath",
     "pet": "Charles",
     "rating": 10,
-    "review": "Helped with survey."
+    "review": "Aidenn did a great job helping me to fill out a school survey,"
   },
   {
     "id": 77,
@@ -613,7 +613,7 @@
     "name": "Mohamed Arafath",
     "pet": "Karin",
     "rating": 10,
-    "review": "Solved issues quickly."
+    "review": "Aiden is the best!  He understood my questions and immediately found solutions for both issues.  I LOVE 24/7 Techies"
   },
   {
     "id": 78,
@@ -621,7 +621,7 @@
     "name": "Mohamed Arafath",
     "pet": "Dwight",
     "rating": 10,
-    "review": "Showed tasks clearly."
+    "review": "Aiden showed me how to do what I asked in no time at all.  So thankful for 24/7 Techies, can always count on them to solve any/all problems that I incur.  -Dwight-"
   },
   {
     "id": 79,
@@ -629,7 +629,7 @@
     "name": "Mohamed Arafath",
     "pet": "Jimmy",
     "rating": 10,
-    "review": "Solved quickly."
+    "review": "Problem was solved quickly and easily.  Thanks Aiden."
   },
   {
     "id": 80,
@@ -637,7 +637,7 @@
     "name": "Mohamed Arafath",
     "pet": "Jacqueline",
     "rating": 10,
-    "review": "Issue resolved."
+    "review": "My problem appears to be gone. Hopefully it will not return. Thank you for your usual fine work."
   },
   {
     "id": 81,
@@ -645,7 +645,7 @@
     "name": "Mohamed Arafath",
     "pet": "Jeannette",
     "rating": 10,
-    "review": "Corrected immediately."
+    "review": "He understood my questions and corrected it immediately."
   },
   {
     "id": 82,
@@ -653,7 +653,7 @@
     "name": "Mohamed Arafath",
     "pet": "Alex",
     "rating": 10,
-    "review": "Very competent."
+    "review": "Aiden's work has been extremely compitant and who not give up een if the laptop did. I would have to wait another 24hours. Thank you for being a part of a great organisation."
   },
   {
     "id": 83,
@@ -661,7 +661,7 @@
     "name": "Mohamed Arafath",
     "pet": "Gary",
     "rating": 10,
-    "review": "Great help."
+    "review": "great job helping senior do charts"
   },
   {
     "id": 84,
@@ -669,7 +669,7 @@
     "name": "Mohamed Arafath",
     "pet": "Oscar",
     "rating": 10,
-    "review": "Resolved printer issue."
+    "review": "Aiden did a wonderful job of understanding the problem that I was having with my laptop talking to my printer."
   },
   {
     "id": 85,
@@ -677,7 +677,7 @@
     "name": "Mohamed Arafath",
     "pet": "Gigi",
     "rating": 10,
-    "review": "Always amazing."
+    "review": "ALWAYS AMAZING AND HAVE SAVED THE DAY MANY MANY TIMES!"
   },
   {
     "id": 86,
@@ -685,7 +685,7 @@
     "name": "Mohamed Arafath",
     "pet": "Max",
     "rating": 10,
-    "review": "Best service available."
+    "review": "Among all the other so-called Computer Specialists, 24/7 Techies beats them all. They are the absolute best money could buy."
   },
   {
     "id": 87,
@@ -693,6 +693,6 @@
     "name": "Mohamed Arafath",
     "pet": "Joyce",
     "rating": 10,
-    "review": "Quick adjustments and great advice."
+    "review": "Aidan quickly made all adjustments as well as my suggested help, gave me shortcuts and great advice!!! Thank you, Aidan."
   }
 ]
